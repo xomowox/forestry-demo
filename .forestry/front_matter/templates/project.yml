@@ -27,5 +27,10 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: list
+  config:
+    use_select: true
+    source:
+      type: pages
 pages:
 - _projects/my-own.md
